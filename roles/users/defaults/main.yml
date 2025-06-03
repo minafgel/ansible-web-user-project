@@ -1,0 +1,6 @@
+---
+users_list:
+  - name: devuser
+    shell: /bin/bash
+  - name: deploy
+    shell: /bin/bash

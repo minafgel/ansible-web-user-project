@@ -1,0 +1,8 @@
+---
+- name: Setup Web Server and Users
+  hosts: webservers
+  become: true
+
+  roles:
+    - webserver
+    - users
